@@ -27,3 +27,26 @@ blockchain = [
 # Anthony's KelloggCoin balance is 2650
 
 # 👇👇👇 Your code HERE 👇👇👇
+
+
+#define initial balances
+ben_balance = 0
+brian_balance = 0
+evan_balance = 0
+anthony_balance = 0
+
+
+#conduct transactions
+ben_balance = ben_balance + blockchain[0]["amount"]
+
+brian_balance = brian_balance + blockchain[1]["amount"]
+
+ben_balance = ben_balance - blockchain[2]["amount"]
+evan_balance = evan_balance + blockchain[2]["amount"]
+
+
+#prints balances
+puts "Ben's KelloggCoin balance is #{ben_balance}"
+puts "Brian's KelloggCoin balance is #{brian_balance}"
+puts "Evan's KelloggCoin balance is #{evan_balance}"
+puts "Anthony's KelloggCoin balance is #{anthony_balance}"
