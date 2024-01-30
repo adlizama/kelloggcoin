@@ -44,6 +44,21 @@ brian_balance = brian_balance + blockchain[1]["amount"]
 ben_balance = ben_balance - blockchain[2]["amount"]
 evan_balance = evan_balance + blockchain[2]["amount"]
 
+brian_balance = brian_balance - blockchain[3]["amount"]
+anthony_balance = anthony_balance + blockchain[3]["amount"]
+
+evan_balance = evan_balance - blockchain[4]["amount"]
+anthony_balance = anthony_balance + blockchain[4]["amount"]
+
+ben_balance = ben_balance - blockchain[5]["amount"]
+anthony_balance = anthony_balance + blockchain[5]["amount"]
+
+anthony_balance = anthony_balance - blockchain[6]["amount"]
+ben_balance = ben_balance + blockchain[6]["amount"]
+
+anthony_balance = anthony_balance - blockchain[7]["amount"]
+evan_balance = evan_balance + blockchain[7]["amount"]
+
 
 #prints balances
 puts "Ben's KelloggCoin balance is #{ben_balance}"
